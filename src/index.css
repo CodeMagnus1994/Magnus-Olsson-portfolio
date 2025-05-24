@@ -1,0 +1,60 @@
+body {
+  background-color: #3d52a0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+#contact-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+#projects-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+#header-layout {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  margin-left: 1250px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #7091e6;
+}
+
+#navbar-name {
+  position: relative;
+  right: 1250px;
+  color: black;
+}
+
+.navbar-button {
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: #7091e6;
+  color: white;
+  border: none;
+}
+
+#navbar-name:hover {
+  color: white;
+}
+
+.navbar-button:hover {
+  color: black;
+  cursor: pointer;
+}
