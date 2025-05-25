@@ -83,8 +83,29 @@ html {
 
 #second-about-section {
   width: 700px;
-  border: 1px solid #66fcf1;
+  border: 2px solid #66fcf1;
   border-radius: 8px;
+}
+
+#about-tech-buttons-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  position: absolute;
+  bottom: 600px;
+  left: 987px;
+}
+
+.tech-button-class {
+  background-color: #66fcf1;
+  border-radius: 25px;
+  color: black;
+  font-size: 20px;
+}
+
+.tech-button-class:hover {
+  background-color: white;
+  cursor: pointer;
 }
 
 #profile-image {
@@ -96,6 +117,14 @@ html {
 .skill-images {
   width: 150px;
   height: 150px;
+}
+
+.tech-images {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
  {
