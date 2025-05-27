@@ -52,18 +52,6 @@ function About() {
       <div id="about-container">
       <section id="first-about-section" className='about-section'>
         <img id="profile-image" src="src/images/profil.jpg" alt="Profile-pic"/>
-        <div id="about-section-cv-container">
-
-          <a href="/resume.pdf" download>
-          <button className='cv-personal-letter-button'>Résumé</button>
-          </a>
-          <a href="/coverletter.pdf" download>
-          <button className='cv-personal-letter-button'>Cover Letter</button>
-          </a>
-          <a href="/Examensarbete.pdf" download>
-          <button className='cv-personal-letter-button'>Thesis Project</button>
-          </a>
-        </div>
         <div>
         <h2>Magnus Olsson</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -91,15 +79,16 @@ function About() {
         </p>
         <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/email.svg" alt="email"/>
-            <button id="email-button" onClick={() => setOpenEmailDialog(true)} className='about-me-links'><strong>magnus1994olsson@gmail.com</strong></button>
+            <button id="email-button" onClick={() => setOpenEmailDialog(true)} className='about-me-button'><strong>magnus1994olsson@gmail.com</strong></button>
         </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/previousoccupation.svg" alt="previousoccupation-about-logo"/>
-            <a className='about-me-links' href="https://kits.se/" target="_blank"rel="noopener noreferrer" alt="prevousoccupation-link"><strong>Previous Occupation - Intern Software Dev @Kits AB</strong></a>
+            <img className='about-me-icons' src="src/tech-images/cv.svg" alt="résumé-about-logo"/>
+            <a href="/resume.pdf" download><button className='cv-personal-letter-button'>Download résumé</button></a>
         </p>
-        <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/currentoccupation.svg" alt="currentoccupation-about-logo"/>
-            <a className='about-me-links'><strong>Current Occupation: <p style={{marginLeft: "27px"}}>- Looking for work</p></strong></a>
+
+         <p className='about-me-paragraph'>
+            <img className='about-me-icons' src="src/tech-images/coverletter.svg" alt="cover-letter-about-logo"/>
+            <a href="/coverletter.pdf" download><button className='cv-personal-letter-button'>Download cover letter</button></a>
         </p>
         </div>
         </div>

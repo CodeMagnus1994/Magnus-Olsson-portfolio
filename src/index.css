@@ -152,6 +152,18 @@ html {
   color: #66fcf1;
 }
 
+.about-me-button {
+  position: relative;
+  left: 15px;
+  bottom: 7px;
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+#email-button:hover {
+  color: white;
+}
+
 .about-me-links:hover {
   color: white;
 }
