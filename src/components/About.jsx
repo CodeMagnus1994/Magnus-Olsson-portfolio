@@ -18,6 +18,7 @@ function About() {
            ullam modi, sed assumenda
            temporibus fuga similique consequuntur 
            blanditiis ea quae vel natus!
+<<<<<<< HEAD
            Enim beatae autem distinctio earum porro veritatis dolorum dolorfe, 
            ullam modi, sed assumenda
            temporibus fuga similique consequuntur 
@@ -54,6 +55,10 @@ function About() {
         </p>
         </div>
        </div>
+=======
+        </p>
+        </div>
+>>>>>>> 9597518859e29e9c1a49961d22053a44256420f9
       </section>
     
     <ul id="about-tech-buttons-list">
