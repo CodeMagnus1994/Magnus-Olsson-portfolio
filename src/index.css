@@ -1,0 +1,172 @@
+body {
+  background-color: #212a31;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ {
+  /*HEADER*/
+}
+
+#header-layout {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  margin-left: 1250px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #2e3944;
+  z-index: 1;
+}
+
+#navbar-name {
+  position: relative;
+  right: 1250px;
+  color: #66fcf1;
+}
+
+#navbar-name:hover {
+  color: white;
+}
+
+.navbar-button {
+  font-size: 25px;
+  margin-top: 15px;
+  background-color: #2e3944;
+  color: #66fcf1;
+  border: none;
+}
+
+.navbar-button:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+ {
+  /*ABOUT*/
+}
+
+#about-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+#about-container {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  top: 200px;
+  width: 1800px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-section {
+  width: 750px;
+  height: 600px;
+  color: #e6e6e6;
+}
+
+#first-about-section {
+  display: flex;
+  gap: 25px;
+  width: 1000px;
+}
+
+#second-about-section {
+  width: 700px;
+  border: 2px solid #66fcf1;
+  border-radius: 8px;
+}
+
+#about-tech-buttons-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  position: absolute;
+  bottom: 600px;
+  left: 987px;
+}
+
+.tech-button-class {
+  background-color: #66fcf1;
+  border-radius: 25px;
+  color: black;
+  font-size: 20px;
+}
+
+.tech-button-class:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#profile-image {
+  border-radius: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.skill-images {
+  width: 150px;
+  height: 150px;
+}
+
+.tech-images {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+#about-me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-me-icons {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.about-me-links {
+  position: relative;
+  left: 15px;
+  bottom: 7px;
+  text-decoration: none;
+  color: #66fcf1;
+}
+
+.about-me-links:hover {
+  color: white;
+}
+
+.about-me-paragraph {
+  position: relative;
+  height: 15px;
+}
+
+ {
+  /*PROJECTS*/
+}
+
+#projects-layout {
+  width: 100%;
+  height: 100vh;
+}
+
+#contact-layout {
+  width: 100%;
+  height: 100vh;
+}
