@@ -1,12 +1,53 @@
 import React from 'react'
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Input, Typography, TextField } from '@mui/material';
 import { useState } from 'react'
 
 function About() {
  
   const [showTech, setShowTech] = useState("languages")
+  const [openEmailDialog, setOpenEmailDialog] = useState(false)
+
+  const cancelDialog = () => {
+    setOpenEmailDialog(false)
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+    console.log("email sent")
+    setOpenEmailDialog(false)
+  }
 
   return (
     <>
+
+    <Dialog open={openEmailDialog}>
+
+      <div id="email-dialog-interior">
+        <button onClickCapture={() => cancelDialog()} id="cancel-email-dialog-button">
+          <img id="cancel-icon" src="src/tech-images/cancel-button.svg" alt="cancel-button"/>
+        </button>
+        <form id="email-dialog-form">
+
+          <h3 className='dialog-text'>Enter fullname</h3>
+          <input style={{fontSize: "15px"}} className="email-input" placeholder='Fullname...'></input>
+            
+          <h3 className='dialog-text'>Enter email</h3>
+          <input style={{fontSize: "15px"}} className="email-input" placeholder='Email...'></input>
+         
+          <h3 className='dialog-text'>Subject</h3>
+          <input style={{fontSize: "15px"}} className="email-input" placeholder='Subject matter...'></input>
+
+          <h3 className='dialog-text'>Message</h3>
+          <textarea placeholder='Enter message...' style={{fontSize: "15px"}} id="text-area-email" className='email-input'></textarea>
+
+          <button onClick={(e) => sendEmail(e)} id="email-send-button">Send</button>
+
+        </form>
+      </div>
+      
+    </Dialog>
+
+
     <div id="about-layout">
       <div id="about-container">
       <section id="first-about-section" className='about-section'>
@@ -50,7 +91,7 @@ function About() {
         </p>
         <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/email.svg" alt="email"/>
-            <button onClick={{}} id="email-button" className='about-me-links'><strong>magnus1994olsson@gmail.com</strong></button>
+            <button id="email-button" onClick={() => setOpenEmailDialog(true)} className='about-me-links'><strong>magnus1994olsson@gmail.com</strong></button>
         </p>
         <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/previousoccupation.svg" alt="previousoccupation-about-logo"/>
@@ -135,6 +176,10 @@ function About() {
           <div>
             <img style={{backgroundColor: "white", borderRadius: "25%", marginTop: "10px"}} className='skill-images' src="src/tech-images/github.svg" alt="Github"/>
             <h4>Github</h4>
+          </div>
+          <div>
+            <img style={{backgroundColor: "white", borderRadius: "25%", marginTop: "10px"}} className='skill-images' src="src/tech-images/materialui.svg" alt="MaterialUI"/>
+            <h4>MaterialUI</h4>
           </div>
         </div>  
         )}

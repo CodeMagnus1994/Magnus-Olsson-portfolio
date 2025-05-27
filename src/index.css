@@ -194,6 +194,71 @@ html {
   cursor: pointer;
 }
 
+#email-dialog-interior {
+  width: 600px;
+  height: 750px;
+  background-color: #2e3944;
+}
+
+#email-dialog-form {
+  margin-left: 35px;
+}
+
+#text-area-email {
+  height: 200px;
+}
+
+.email-input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#cancel-email-dialog-button {
+  position: relative;
+  left: 490px;
+  top: 25px;
+  background: transparent;
+  border: none;
+}
+
+#cancel-email-dialog-button:hover {
+  background-color: white;
+  opacity: 0.33;
+  cursor: pointer;
+}
+
+#cancel-icon {
+  width: 35px;
+  height: 35px;
+}
+
+#email-send-button {
+  position: relative;
+  right: 50%;
+  top: 50px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #66fcf1;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+#email-send-button:hover {
+  color: white;
+}
+
+.dialog-text {
+  color: #66fcf1;
+}
+
  {
   /*PROJECTS*/
 }
