@@ -18,8 +18,7 @@ function About() {
            ullam modi, sed assumenda
            temporibus fuga similique consequuntur 
            blanditiis ea quae vel natus!
-<<<<<<< HEAD
-           Enim beatae autem distinctio earum porro veritatis dolorum dolorfe, 
+                      Enim beatae autem distinctio earum porro veritatis dolorum dolorfe, 
            ullam modi, sed assumenda
            temporibus fuga similique consequuntur 
            blanditiis ea quae vel natus!
@@ -36,7 +35,7 @@ function About() {
            temporibus fuga similique consequuntur 
            blanditiis ea quae vel natus!
         </p>
-        <div id="about-me-container">
+           <div id="about-me-container">
           <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/github.svg" alt="github-about-logo"/>
             <a className='about-me-links' href="https://github.com/CodeMagnus1994" target="_blank"rel="noopener noreferrer" alt="github-link"><strong>Github</strong></a>
@@ -54,11 +53,7 @@ function About() {
             <a className='about-me-links'><strong>Current Occupation: Looking for work</strong></a>
         </p>
         </div>
-       </div>
-=======
-        </p>
         </div>
->>>>>>> 9597518859e29e9c1a49961d22053a44256420f9
       </section>
     
     <ul id="about-tech-buttons-list">
