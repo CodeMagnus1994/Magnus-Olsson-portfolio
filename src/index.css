@@ -83,13 +83,13 @@ html {
 
 #second-about-section {
   width: 700px;
-  border: 2px solid #66fcf1;
-  border-radius: 8px;
+  border: 1px solid #66fcf1;
+  border-radius: 25px;
 }
 
 #about-tech-buttons-list {
   display: flex;
-  gap: 10px;
+  gap: 35px;
   list-style: none;
   position: absolute;
   bottom: 600px;
@@ -97,15 +97,19 @@ html {
 }
 
 .tech-button-class {
-  background-color: #66fcf1;
-  border-radius: 25px;
-  color: black;
-  font-size: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #66fcf1;
+  cursor: pointer;
+  font-size: 21px;
 }
 
 .tech-button-class:hover {
-  background-color: white;
   cursor: pointer;
+  color: white;
 }
 
 #profile-image {
@@ -155,6 +159,43 @@ html {
 .about-me-paragraph {
   position: relative;
   height: 15px;
+}
+
+#about-section-cv-container {
+  position: absolute;
+  top: 520px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-personal-letter-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #66fcf1;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.cv-personal-letter-button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#email-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: #66fcf1;
+  cursor: pointer;
+}
+
+ {
+  /*PROJECTS*/
 }
 
 #projects-layout {
