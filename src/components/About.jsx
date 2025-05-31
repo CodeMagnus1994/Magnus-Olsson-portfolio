@@ -75,12 +75,12 @@ function About() {
             <a className='about-me-links' href="https://www.linkedin.com/in/magnusolsson1994/" target="_blank"rel="noopener noreferrer" alt="linkedin-link"><strong>LinkedIn</strong></a>
         </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/phone.svg" alt="phone-number"/>
-            <a className='about-me-links'><strong>073-424-65-04</strong></a>
-        </p>
-        <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/email.svg" alt="email"/>
             <button id="email-button" onClick={() => setOpenEmailDialog(true)} className='about-me-button'><strong>magnus1994olsson@gmail.com</strong></button>
+        </p>
+        <p className='about-me-paragraph'>
+            <img className='about-me-icons' src="src/tech-images/phone.svg" alt="phone-number"/>
+            <a className='about-me-links'><strong>073-424-65-04</strong></a>
         </p>
         <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/cv.svg" alt="résumé-about-logo"/>
