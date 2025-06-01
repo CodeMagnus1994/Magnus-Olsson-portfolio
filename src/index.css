@@ -16,7 +16,7 @@ html {
   display: flex;
   gap: 5px;
   list-style: none;
-  margin-left: 1250px;
+  margin-left: 1400px;
 }
 
 #navbar {
@@ -28,7 +28,7 @@ html {
 
 #navbar-name {
   position: relative;
-  right: 1250px;
+  right: 1380px;
   color: #66fcf1;
 }
 
@@ -125,7 +125,7 @@ html {
 
 .tech-images {
   display: grid;
-  gap: 50px;
+  gap: 25%;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
@@ -398,13 +398,4 @@ html {
 
 .source-code-link:hover {
   color: white;
-}
-
- {
-  /*CONTACT*/
-}
-
-#contact-layout {
-  width: 100%;
-  height: 100vh;
 }

@@ -5,7 +5,7 @@ function Projects() {
     <div id="projects-layout">
       <div id="project-container-upper">
         <section className='project-section'>
-          <h1 style={{position: 'relative', left: '190px'}} className='project-section-title'>Goodreads</h1>
+          <h1 style={{position: 'relative', left: '190px', width: "150px"}} className='project-section-title'>Book Auction</h1>
           <a className='image-link-attribute' alt="Kollicon-github-source-code" target="_blank"rel="noopener noreferrer">
           <img className='project-image' src="src/images/project.png" alt="project"/>
           <p className="image-click-paragraph">To be released!</p>
@@ -14,37 +14,36 @@ function Projects() {
           <section className='project-section'>
           <h1 style={{position: 'relative', left: "190px"}} className='project-section-title'>Yrkeskompetens</h1>
           <a className='image-link-attribute' href='https://github.com/CodeMagnus1994/yrkeskunskaper' alt="yrkeskompetens-live" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/project.png" alt="project"/>
-          <p className="image-click-paragraph">Visit Website</p>
+          <img className='project-image' src="src/images/yrkeskompetens.png" alt="project-yrkeskompetens"/>
+          <p className="image-click-paragraph">Click me</p>
           </a>
         </section>
           <section className='project-section'>
           <h1 className='project-section-title'>Kollicon</h1>
           <a className='image-link-attribute' href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/project.png" alt="project"/>
-          <p className="image-click-paragraph">Visit Github</p>
+          <img className='project-image' src="src/images/kollicon.png" alt="project"/>
+          <p className="image-click-paragraph">Click me</p>
           </a>   
         </section>
        </div>
        
        <div id="project-container-lower">
         <section className="lower-section">
-          <h3 className='project-lower-text'>Stauts: Not online</h3>
-          <h3 className='project-lower-text'>Category: Frontend</h3>
+          <h3 style={{color: "red"}} className='project-lower-text'>Offline</h3>
+          <h3 className='project-lower-text'>Frontend</h3>
           <a className='source-code-link'  alt="Github-yrkeskompetens">Source Code</a>
           <div className='project-tech-list'>
             <ul className='project-lower-tech-list'>
           </ul>
           </div>
           <div className='project-description'>
-            <h2>Goodreads:</h2>
             <p>No description available.</p>
           </div>
         </section>
 
        <section style={{position: 'relative', right: "344px"}} className="lower-section">
-          <h3 className='project-lower-text'>Stauts: Deployed to Yrkeskompetens.se</h3>
-          <h3 className='project-lower-text'>Category: Frontend</h3>
+          <h3 style={{color: "rgb(9, 170, 4)"}} className='project-lower-text'>Online</h3>
+          <h3 className='project-lower-text'>Frontend</h3>
           <a className='source-code-link' href='https://github.com/CodeMagnus1994/yrkeskunskaper' alt="github-yrkeskompetens" target="_blank"rel="noopener noreferrer">Source Code</a>
           <div className='project-tech-list'>
             <ul className='project-lower-tech-list'>
@@ -55,7 +54,6 @@ function Projects() {
           </ul>
           </div>
           <div className='project-description'>
-            <h2>Yrkeskompetens:</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
               ad aliquam fugiat impedit, cum deserunt!
@@ -64,8 +62,8 @@ function Projects() {
         </section>
 
        <section style={{position: 'relative', right: "693px"}} className="lower-section">
-          <h3 className='project-lower-text'>Stauts: Not online</h3>
-          <h3 className='project-lower-text'>Category: Fullstack</h3>
+          <h3 style={{color: "red"}} className='project-lower-text'>Offline</h3>
+          <h3 className='project-lower-text'>Fullstack</h3>
           <a className='source-code-link' href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">Source Code</a>
           <div className='project-tech-list'>
             <ul className='project-lower-tech-list'>
@@ -78,7 +76,6 @@ function Projects() {
           </ul>
           </div>
           <div className='project-description'>
-            <h2>Yrkeskompetens:</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
               ad aliquam fugiat impedit, cum deserunt!

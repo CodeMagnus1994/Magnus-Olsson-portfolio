@@ -119,11 +119,11 @@ function About() {
           </div>
           <div>
             <img className='skill-images' src="src/tech-images/javascript.svg" alt="typescript"/>
-            <h4 style={{marginLeft: "55px"}}>Javascript</h4>
+            <h4 style={{marginLeft: "40px"}}>Javascript</h4>
           </div>
           <div>
             <img className='skill-images' src="src/tech-images/typescript-svgrepo-com.svg" alt="typescript"/>
-            <h4 style={{marginLeft: "55px"}}>Typescript</h4>
+            <h4 style={{marginLeft: "40px"}}>Typescript</h4>
           </div>
           <div>
             <img className='skill-images' src="src/tech-images/html-5.svg" alt="html"/>
@@ -147,11 +147,11 @@ function About() {
         <div class="tech-images">
             <div>
               <img style={{height: "130px", width: "150px", marginTop: "25px"}} className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
-              <h4 style={{marginLeft: "55px"}}>Spring Boot</h4>
+              <h4 style={{marginLeft: "33px"}}>Spring Boot</h4>
             </div>
             <div>
                <img className='skill-images' src="src/tech-images/react-js.svg" alt="React JS"/>
-               <h4 style={{marginLeft: "55px"}}>React JS</h4>
+               <h4 style={{marginLeft: "50px"}}>React JS</h4>
             </div>
         </div>  
         </motion.div>
