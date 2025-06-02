@@ -12,24 +12,18 @@ html {
   /*HEADER*/
 }
 
-#header-layout {
-  display: flex;
-  gap: 5px;
-  list-style: none;
-  margin-left: 1400px;
-}
-
 #navbar {
   position: fixed;
   width: 100%;
   background-color: #2e3944;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 #navbar-name {
-  position: relative;
-  right: 1380px;
   color: #66fcf1;
+  margin-left: 50px;
 }
 
 #navbar-name:hover {
@@ -38,7 +32,7 @@ html {
 
 .navbar-button {
   font-size: 25px;
-  margin-top: 15px;
+  margin-right: 50px;
   background-color: #2e3944;
   color: #66fcf1;
   border: none;
