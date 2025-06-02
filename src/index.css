@@ -54,7 +54,7 @@ html {
 
 #about-container {
   display: flex;
-  gap: 25px;
+  justify-content: space-between;
   position: relative;
   top: 200px;
   width: 1800px;
@@ -83,11 +83,9 @@ html {
 
 #about-tech-buttons-list {
   display: flex;
+  justify-content: flex-start;
   gap: 35px;
   list-style: none;
-  position: absolute;
-  bottom: 600px;
-  left: 987px;
 }
 
 .tech-button-class {
@@ -123,6 +121,12 @@ html {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: center;
+}
+
+.tech-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #about-me-container {
@@ -274,14 +278,21 @@ html {
   height: 100vh;
 }
 
-#project-container-upper {
+#project-container {
   width: 1800px;
   height: 700px;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   position: relative;
-  top: 100px;
+  top: 90px;
+}
+
+.project-lower-part {
+  margin-top: 23rem;
   display: flex;
+  flex-direction: column;
 }
 
 #project-container-lower {

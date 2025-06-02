@@ -13,14 +13,14 @@ function App() {
         scrollToAbout={() => aboutRef.current.scrollIntoView({ behavior: "smooth" })}
         scrollToProjects={() => projectsRef.current.scrollIntoView({ behavior: "smooth" })}
       />
-
+      
     <div ref={aboutRef}>
         <About />
       </div>
 
     <div ref={projectsRef}>
         <Projects />
-      </div>
+    </div>
 
     </div>
   );

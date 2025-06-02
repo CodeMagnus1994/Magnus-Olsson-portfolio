@@ -51,6 +51,8 @@ function About() {
 
     <div id="about-layout">
       <div id="about-container">
+
+      {/*SECTION 1*/}
       <section id="first-about-section" className='about-section'>
         <img id="profile-image" src="src/images/profil.jpg" alt="Profile-pic"/>
         <div>
@@ -94,17 +96,16 @@ function About() {
         </div>
         </div>
       </section>
-    
-    <ul id="about-tech-buttons-list">
+
+      {/*SECTION2 */}
+      <section id="second-about-section" className='about-section'>       
+     <ul id="about-tech-buttons-list">
       <li><button className='tech-button-class' onClick={() => setShowTech("languages")}>Languages</button></li>
       <li><button className='tech-button-class' onClick={() => setShowTech("framework")}>Frameworks</button></li>
       <li><button className='tech-button-class' onClick={() => setShowTech("cloudservices")}>Cloudservicess</button></li>
       <li><button className='tech-button-class' onClick={() => setShowTech("tools")}>Tools</button></li>
       <li><button className='tech-button-class' onClick={() => setShowTech("databases")}>Databases</button></li>
-    </ul>
-
-      <section id="second-about-section" className='about-section'>
-        
+     </ul>       
         {showTech === "languages" && (
         <motion.div
          className="tech-images"
@@ -113,25 +114,25 @@ function About() {
          transition={{ duration: 0.5 }}
          >
          <div class="tech-images">
-          <div>
+          <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/java.svg" alt="java-logo"/>
-            <h4 style={{marginLeft: "55px"}}>Java</h4>
+            <h4>Java</h4>
           </div>
-          <div>
+          <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/javascript.svg" alt="typescript"/>
-            <h4 style={{marginLeft: "40px"}}>Javascript</h4>
+            <h4>Javascript</h4>
           </div>
-          <div>
+          <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/typescript-svgrepo-com.svg" alt="typescript"/>
-            <h4 style={{marginLeft: "40px"}}>Typescript</h4>
+            <h4>Typescript</h4>
           </div>
-          <div>
+          <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/html-5.svg" alt="html"/>
-            <h4 style={{marginLeft: "55px"}}>HTML 5</h4>
+            <h4>HTML 5</h4>
           </div>
-          <div>
+          <div className='tech-content-container'>
              <img className='skill-images' src="src/tech-images/css-3.svg" alt="javascript"/>
-             <h4 style={{marginLeft: "55px"}}>CSS 3</h4>         
+             <h4>CSS 3</h4>         
           </div>
         </div>
         </motion.div>
@@ -145,14 +146,18 @@ function About() {
          transition={{ duration: 0.5 }}
          >
         <div class="tech-images">
-            <div>
-              <img style={{height: "130px", width: "150px", marginTop: "25px"}} className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
-              <h4 style={{marginLeft: "33px"}}>Spring Boot</h4>
+            <div className='tech-content-container'>
+              <img style={{height: "130px", width: "150px"}} className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
+              <h4>Spring Boot</h4>
             </div>
-            <div>
+            <div className='tech-content-container'>
                <img className='skill-images' src="src/tech-images/react-js.svg" alt="React JS"/>
-               <h4 style={{marginLeft: "50px"}}>React JS</h4>
+               <h4>React JS</h4>
             </div>
+            <div className='tech-content-container'>
+            <img style={{backgroundColor: "white", borderRadius: "25%"}} className='skill-images' src="src/tech-images/materialui.svg" alt="MaterialUI"/>
+            <h4>MaterialUI</h4>
+          </div>
         </div>  
         </motion.div>
         )}
@@ -165,9 +170,9 @@ function About() {
          transition={{ duration: 0.5 }}
          >
         <div class="tech-images">
-          <div>
-            <img style={{backgroundColor: "white", borderRadius: "35%", marginTop: "10px", marginLeft: "10px"}} className='skill-images' src="src/tech-images/aws.svg" alt="Amazon Web Services"/>
-            <h4 style={{marginLeft: "35px"}}>Amazon Web Services</h4>
+          <div className='tech-content-container'>
+            <img style={{backgroundColor: "white", borderRadius: "35%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/aws.svg" alt="Amazon Web Services"/>
+            <h4>Amazon Web Services</h4>
           </div>
         </div>  
         </motion.div>
@@ -181,9 +186,9 @@ function About() {
          transition={{ duration: 0.5 }}
          >
         <div class="tech-images">
-          <div>
-            <img style={{marginTop: "10px"}} className='skill-images' src="src/tech-images/postgresql.svg" alt="PostgreSQL"/>
-            <h4 style={{marginLeft: "40px"}}>PostgreSQL</h4>
+          <div className='tech-content-container'>
+            <img style={{marginLeft: "8px"}} className='skill-images' src="src/tech-images/postgresql.svg" alt="PostgreSQL"/>
+            <h4 >PostgreSQL</h4>
           </div>
         </div>  
         </motion.div>
@@ -197,13 +202,9 @@ function About() {
          transition={{ duration: 0.5 }}
          >
         <div class="tech-images">
-          <div>
-            <img style={{backgroundColor: "white", borderRadius: "25%", marginTop: "10px", marginLeft: "15px"}} className='skill-images' src="src/tech-images/github.svg" alt="Github"/>
-            <h4 style={{marginLeft: "65px"}}>Github</h4>
-          </div>
-          <div>
-            <img style={{backgroundColor: "white", borderRadius: "25%", marginTop: "10px"}} className='skill-images' src="src/tech-images/materialui.svg" alt="MaterialUI"/>
-            <h4 style={{marginLeft: "35px"}}>MaterialUI</h4>
+          <div className='tech-content-container'>
+            <img style={{backgroundColor: "white", borderRadius: "25%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/github.svg" alt="Github"/>
+            <h4 >Github</h4>
           </div>
         </div>  
         </motion.div>
