@@ -1,39 +1,4 @@
  {
-  /*HEADER*/
-}
-
-#navbar {
-  position: fixed;
-  width: 100%;
-  background-color: #2e3944;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-}
-
-#navbar-name {
-  color: #66fcf1;
-  margin-left: 50px;
-}
-
-#navbar-name:hover {
-  color: white;
-}
-
-.navbar-button {
-  font-size: 25px;
-  margin-right: 50px;
-  background-color: #2e3944;
-  color: #66fcf1;
-  border: none;
-}
-
-.navbar-button:hover {
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-}
-
- {
   /*ABOUT*/
 }
 
@@ -243,38 +208,11 @@
 #projects-layout {
   width: 100%;
   height: 100vh;
-}
-
-#project-container {
-  width: 1800px;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  position: relative;
-  top: 90px;
-}
-
-.project-lower-part {
-  margin-top: 23rem;
   display: flex;
-  flex-direction: column;
-}
-
-#project-container-lower {
-  width: 1800px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  bottom: 175px;
-  display: flex;
-  gap: 410px;
-}
-
-.project-section {
-  width: 600px;
+  justify-content: center;
+  align-items: end;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .project-section-title {
@@ -283,16 +221,6 @@
   left: 220px;
   top: 5px;
   color: #66fcf1;
-}
-
-.project-image {
-  width: 550px;
-  height: 350px;
-  border-radius: 30px;
-}
-
-.project-image:hover {
-  opacity: 0.5;
 }
 
 .image-click-paragraph {
