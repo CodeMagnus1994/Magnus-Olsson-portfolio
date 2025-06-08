@@ -50,7 +50,6 @@ function About() {
 
 
     <div id="about-layout">
-      <div id="about-container">
 
       {/*SECTION 1*/}
       <section id="first-about-section" className='about-section'>
@@ -212,7 +211,6 @@ function About() {
         
       </section>
       </div>
-    </div>
     </>
   )
 }
