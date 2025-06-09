@@ -117,23 +117,23 @@ function About() {
          <div className="tech-images">
           <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/java.svg" alt="java-logo"/>
-            <h4>Java</h4>
+            <h4 className='skill-image-title'>Java</h4>
           </div>
           <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/javascript.svg" alt="typescript"/>
-            <h4>Javascript</h4>
+            <h4 className='skill-image-title'>Javascript</h4>
           </div>
           <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/typescript-svgrepo-com.svg" alt="typescript"/>
-            <h4>Typescript</h4>
+            <h4 className='skill-image-title'>Typescript</h4>
           </div>
           <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/html-5.svg" alt="html"/>
-            <h4>HTML 5</h4>
+            <h4 className='skill-image-title'>HTML 5</h4>
           </div>
           <div className='tech-content-container'>
              <img className='skill-images' src="src/tech-images/css-3.svg" alt="javascript"/>
-             <h4>CSS 3</h4>         
+             <h4 className='skill-image-title'>CSS 3</h4>         
           </div>
         </div>
         </motion.div>
@@ -149,15 +149,15 @@ function About() {
         <div class="tech-images">
             <div className='tech-content-container'>
               <img id="spring-boot-image" className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
-              <h4>Spring Boot</h4>
+              <h4 className='skill-image-title'>Spring Boot</h4>
             </div>
             <div className='tech-content-container'>
                <img className='skill-images' src="src/tech-images/react-js.svg" alt="React JS"/>
-               <h4>React JS</h4>
+               <h4 className='skill-image-title'>React JS</h4>
             </div>
             <div className='tech-content-container'>
             <img style={{backgroundColor: "white", borderRadius: "25%"}} className='skill-images' src="src/tech-images/materialui.svg" alt="MaterialUI"/>
-            <h4>MaterialUI</h4>
+            <h4 className='skill-image-title'>MaterialUI</h4>
           </div>
         </div>  
         </motion.div>
@@ -173,7 +173,7 @@ function About() {
         <div class="tech-images">
           <div className='tech-content-container'>
             <img style={{backgroundColor: "white", borderRadius: "35%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/aws.svg" alt="Amazon Web Services"/>
-            <h4>Amazon Web Services</h4>
+            <h4 className='skill-image-title'>Amazon Web Services</h4>
           </div>
         </div>  
         </motion.div>
@@ -189,7 +189,7 @@ function About() {
         <div class="tech-images">
           <div className='tech-content-container'>
             <img style={{marginLeft: "8px"}} className='skill-images' src="src/tech-images/postgresql.svg" alt="PostgreSQL"/>
-            <h4 >PostgreSQL</h4>
+            <h4 className='skill-image-title'>PostgreSQL</h4>
           </div>
         </div>  
         </motion.div>
@@ -205,7 +205,7 @@ function About() {
         <div class="tech-images">
           <div className='tech-content-container'>
             <img style={{backgroundColor: "white", borderRadius: "25%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/github.svg" alt="Github"/>
-            <h4 >Github</h4>
+            <h4 className='skill-image-title'>Github</h4>
           </div>
         </div>  
         </motion.div>
