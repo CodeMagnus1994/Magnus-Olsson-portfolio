@@ -573,7 +573,7 @@ html {
 }
 
  {
-  /*Ipad 768 - 1024*/
+  /*Ipad Mini*/
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -655,14 +655,19 @@ html {
 
   .project-section {
     position: relative;
-    left: 100px;
-    bottom: 150px;
+    left: 50px;
+    bottom: 450px;
+    width: 800px;
   }
 
   .project-image {
-    width: 520px;
-    height: 350px;
+    width: 800px;
+    height: 500px;
     border-radius: 30px;
+  }
+
+  .project-description {
+    width: 800px;
   }
 }
 
