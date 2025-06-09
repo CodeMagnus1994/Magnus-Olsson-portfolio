@@ -55,6 +55,7 @@ function About() {
       <section id="first-about-section" className='about-section'>
         <img id="profile-image" src="src/images/profil.jpg" alt="Profile-pic"/>
         <div>
+        <div id="about-me-information">  
         <h2>Magnus Olsson</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Enim beatae autem distinctio earum porro veritatis dolorum dolorfe, 
@@ -66,6 +67,7 @@ function About() {
            temporibus fuga similique consequuntur 
            blanditiis ea quae vel natus!
         </p>
+        </div>
            <div id="about-me-container">
           <p className='about-me-paragraph'>
             <img className='about-me-icons' src="src/tech-images/github.svg" alt="github-about-logo"/>

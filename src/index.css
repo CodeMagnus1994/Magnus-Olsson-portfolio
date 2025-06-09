@@ -388,3 +388,55 @@ html {
 .project-image:hover {
   opacity: 0.5;
 }
+
+ {
+  /*RESPONSIVENESS*/
+}
+
+ {
+  /*Phone 360 - 430*/
+}
+
+@media (min-width: 360px) and (max-width: 430px) {
+  #first-about-section {
+    padding-right: 50px;
+    position: relative;
+    left: 50px;
+    top: 125px;
+  }
+
+  #profile-image {
+    display: none;
+  }
+
+  #about-me-information {
+    width: 450px;
+    position: relative;
+    left: 55px;
+  }
+
+  #about-me-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    position: relative;
+    left: 50px;
+    width: 520px;
+  }
+
+  #ul-navbar {
+    position: relative;
+    right: 65px;
+  }
+}
+
+ {
+  /*Ipad 768 - 1024*/
+}
+
+ {
+  /*Small 344 - 540*/
+}
+
+ {
+  /*Large 1280 - 1440 */
+}
