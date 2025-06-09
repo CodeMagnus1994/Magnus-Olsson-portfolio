@@ -361,6 +361,11 @@ html {
   /* IMAGES */
 }
 
+#spring-boot-image {
+  height: 130px;
+  width: 150px;
+}
+
 #profile-image {
   border-radius: 50px;
   width: 500px;
@@ -401,7 +406,7 @@ html {
   #first-about-section {
     padding-right: 50px;
     position: relative;
-    left: 50px;
+    left: 75px;
     top: 125px;
   }
 
@@ -423,9 +428,48 @@ html {
     width: 520px;
   }
 
-  #ul-navbar {
+  .navbar-button {
+    display: none;
+  }
+
+  #second-about-section {
     position: relative;
-    right: 65px;
+    left: 25px;
+    bottom: 75px;
+  }
+
+  #about-tech-buttons-list {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .skill-images {
+    width: 75px;
+    height: 75px;
+  }
+
+  #projects-layout {
+    position: relative;
+    top: 700px;
+  }
+
+  #second-about-section {
+    position: relative;
+    left: 45px;
+    padding-right: 15px;
+    padding-left: 10px;
+    height: 600px;
+  }
+
+  #spring-boot-image {
+    width: 75px;
+    height: 75px;
+  }
+
+  .tech-images {
+    position: relative;
+    padding-right: 50px;
+    width: 400px;
   }
 }
 

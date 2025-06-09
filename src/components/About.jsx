@@ -114,7 +114,7 @@ function About() {
          animate={{ opacity: 1, y: 25 }}
          transition={{ duration: 0.5 }}
          >
-         <div class="tech-images">
+         <div className="tech-images">
           <div className='tech-content-container'>
             <img className='skill-images' src="src/tech-images/java.svg" alt="java-logo"/>
             <h4>Java</h4>
@@ -148,7 +148,7 @@ function About() {
          >
         <div class="tech-images">
             <div className='tech-content-container'>
-              <img style={{height: "130px", width: "150px"}} className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
+              <img id="spring-boot-image" className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
               <h4>Spring Boot</h4>
             </div>
             <div className='tech-content-container'>

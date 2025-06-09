@@ -6,14 +6,14 @@ function Projects() {
 
         {/* SECTION 1 */}
           <section className='project-section'>
-          <box>
+          <div>
           <h1>HAHAHAHA</h1>
           <a href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/kollicon.png" alt="project"/>
+          <img className='project-image' src="src/images/kollicon.png" alt="project"></img>
           </a>        
-          </box>
+          </div>
 
-          <box>
+          <div>
           <h3 style={{color: "red"}} className='project-lower-text'>Offline</h3>
           <h3 className='project-lower-text'>Fullstack</h3>
           <a className='source-code-link' href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">Source Code</a>
@@ -31,21 +31,23 @@ function Projects() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
               ad aliquam fugiat impedit, cum deserunt!
+              Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
+              ad aliquam fugiat impedit, cum deserunt!
                Esse doloribus blanditiis iste deserunt a doloremque excepturi.</p>
           </div>
-          </box>
+          </div>
         </section>
 
        {/* SECTION 2 */}
           <section className='project-section'>
-          <box>
+          <div>
           <h1>HAHAHAHA</h1>
           <a href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/kollicon.png" alt="project"/>
+          <img className='project-image' src="src/images/kollicon.png" alt="project"></img>
           </a>        
-          </box>
+          </div>
 
-          <box>
+          <div>
           <h3 style={{color: "red"}} className='project-lower-text'>Offline</h3>
           <h3 className='project-lower-text'>Fullstack</h3>
           <a className='source-code-link' href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">Source Code</a>
@@ -63,9 +65,11 @@ function Projects() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
               ad aliquam fugiat impedit, cum deserunt!
+              Illo, nobis cumque iusto eius earum, repudiandae exercitationem 
+              ad aliquam fugiat impedit, cum deserunt!
                Esse doloribus blanditiis iste deserunt a doloremque excepturi.</p>
           </div>
-          </box>
+          </div>
         </section>
 
           {/* SECTION 3 */}
