@@ -2,6 +2,8 @@ import React from 'react'
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Input, Typography, TextField } from '@mui/material';
 import { useState } from 'react'
 import { motion } from "framer-motion";
+import profileImage from './images/profil.jpg'; // relative to the file you're in
+
 
 function About() {
  
@@ -53,7 +55,7 @@ function About() {
 
       {/*SECTION 1*/}
       <section id="first-about-section" className='about-section'>
-        <img id="profile-image" src="src/images/profil.jpg" alt="Profile-pic"/>
+        <img id="profile-image" src={profileImage} alt="Profile-pic"/>
         <div>
         <div id="about-me-information">  
         <h2>Magnus Olsson</h2>
