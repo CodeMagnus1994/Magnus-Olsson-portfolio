@@ -3,6 +3,16 @@ import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Input, Typog
 import { useState } from 'react'
 import { motion } from "framer-motion";
 import profileImage from '../images/profil.jpg'; 
+import awsImage from '../tech-images/aws.svg'; 
+import cancelButton from '../tech-images/cancel-button.svg';
+import coverLetter from '../tech-images/coverletter.svg'; 
+import cssImage from '../tech-images/css-3.svg'; 
+import cvImage from '../tech-images/cv.svg'; 
+import emailImage from '../tech-images/email.svg'; 
+
+
+
+
 
 function About() {
  
@@ -173,7 +183,7 @@ function About() {
          >
         <div class="tech-images">
           <div className='tech-content-container'>
-            <img style={{backgroundColor: "white", borderRadius: "35%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/aws.svg" alt="Amazon Web Services"/>
+            <img style={{backgroundColor: "white", borderRadius: "35%", marginLeft: "8px"}} className='skill-images' src={awsImage} alt="Amazon Web Services"/>
             <h4 className='skill-image-title'>Amazon Web Services</h4>
           </div>
         </div>  
