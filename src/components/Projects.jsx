@@ -1,4 +1,9 @@
 import React from 'react'
+import kolliconImage from '../images/kollicon.png'; 
+import projectImage from '../images/project.png'; 
+import yrkeskompetensImage from '../images/yrkeskompetens.png'; 
+
+
 
 function Projects() {
   return (
@@ -9,7 +14,7 @@ function Projects() {
           <div>
           <h1>HAHAHAHA</h1>
           <a href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/kollicon.png" alt="project"></img>
+          <img className='project-image' src={kolliconImage} alt="project"></img>
           </a>        
           </div>
 
@@ -43,7 +48,7 @@ function Projects() {
           <div>
           <h1>HAHAHAHA</h1>
           <a href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/kollicon.png" alt="project"></img>
+          <img className='project-image' src={kolliconImage} alt="project"></img>
           </a>        
           </div>
 
@@ -77,7 +82,7 @@ function Projects() {
           <div>
           <h1>HAHAHAHA</h1>
           <a href='https://github.com/CodeMagnus1994/KOLLiCon' alt="github-kollicon" target="_blank"rel="noopener noreferrer">
-          <img className='project-image' src="src/images/kollicon.png" alt="project"></img>
+          <img className='project-image'src={kolliconImage} alt="project"></img>
           </a>        
           </div>
 
