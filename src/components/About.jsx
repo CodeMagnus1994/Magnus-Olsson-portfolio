@@ -9,9 +9,17 @@ import coverLetter from '../tech-images/coverletter.svg';
 import cssImage from '../tech-images/css-3.svg'; 
 import cvImage from '../tech-images/cv.svg'; 
 import emailImage from '../tech-images/email.svg'; 
-
-
-
+import githubImage from '../tech-images/github.svg'; 
+import htmlImage from '../tech-images/html-5.svg'; 
+import javaImage from '../tech-images/java.svg'; 
+import javascriptImage from '../tech-images/javascript.svg'; 
+import linkedinImage from '../tech-images/linkedin-brands.svg'; 
+import materialuiImage from '../tech-images/materialui.svg'; 
+import phoneImage from '../tech-images/phone.svg'; 
+import postgresqlImage from '../tech-images/postgresql.svg'; 
+import reactjsImage from '../tech-images/react-js.svg'; 
+import springImage from '../tech-images/spring.svg'; 
+import typescriptImage from '../tech-images/typescript-svgrepo-com.svg'; 
 
 
 function About() {
@@ -36,7 +44,7 @@ function About() {
 
       <div id="email-dialog-interior">
         <button onClickCapture={() => cancelDialog()} id="cancel-email-dialog-button">
-          <img id="cancel-icon" src="src/tech-images/cancel-button.svg" alt="cancel-button"/>
+          <img id="cancel-icon" src={cancelButton} alt="cancel-button"/>
         </button>
         <form id="email-dialog-form">
 
@@ -81,28 +89,28 @@ function About() {
         </div>
            <div id="about-me-container">
           <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/github.svg" alt="github-about-logo"/>
+            <img className='about-me-icons' src={githubImage} alt="github-about-logo"/>
             <a className='about-me-links' href="https://github.com/CodeMagnus1994" target="_blank"rel="noopener noreferrer" alt="github-link"><strong>Github</strong></a>
           </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/linkedin-brands.svg" alt="linkedin-about-logo"/>
+            <img className='about-me-icons' src={linkedinImage} alt="linkedin-about-logo"/>
             <a className='about-me-links' href="https://www.linkedin.com/in/magnusolsson1994/" target="_blank"rel="noopener noreferrer" alt="linkedin-link"><strong>LinkedIn</strong></a>
         </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/email.svg" alt="email"/>
+            <img className='about-me-icons' src={emailImage} alt="email"/>
             <button id="email-button" onClick={() => setOpenEmailDialog(true)} className='about-me-button'><strong>magnus1994olsson@gmail.com</strong></button>
         </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/phone.svg" alt="phone-number"/>
+            <img className='about-me-icons' src={phoneImage} alt="phone-number"/>
             <a className='about-me-links'><strong>073-424-65-04</strong></a>
         </p>
         <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/cv.svg" alt="résumé-about-logo"/>
+            <img className='about-me-icons' src={cvImage} alt="résumé-about-logo"/>
             <a href="/resume.pdf" download><button className='cv-personal-letter-button'>Download résumé</button></a>
         </p>
 
          <p className='about-me-paragraph'>
-            <img className='about-me-icons' src="src/tech-images/coverletter.svg" alt="cover-letter-about-logo"/>
+            <img className='about-me-icons' src={coverLetter} alt="cover-letter-about-logo"/>
             <a href="/coverletter.pdf" download><button className='cv-personal-letter-button'>Download cover letter</button></a>
         </p>
         </div>
@@ -127,23 +135,23 @@ function About() {
          >
          <div className="tech-images">
           <div className='tech-content-container'>
-            <img className='skill-images' src="src/tech-images/java.svg" alt="java-logo"/>
+            <img className='skill-images' src={javaImage} alt="java-logo"/>
             <h4 className='skill-image-title'>Java</h4>
           </div>
           <div className='tech-content-container'>
-            <img className='skill-images' src="src/tech-images/javascript.svg" alt="typescript"/>
+            <img className='skill-images' src={javascriptImage} alt="typescript"/>
             <h4 className='skill-image-title'>Javascript</h4>
           </div>
           <div className='tech-content-container'>
-            <img className='skill-images' src="src/tech-images/typescript-svgrepo-com.svg" alt="typescript"/>
+            <img className='skill-images' src={typescriptImage} alt="typescript"/>
             <h4 className='skill-image-title'>Typescript</h4>
           </div>
           <div className='tech-content-container'>
-            <img className='skill-images' src="src/tech-images/html-5.svg" alt="html"/>
+            <img className='skill-images' src={htmlImage} alt="html"/>
             <h4 className='skill-image-title'>HTML 5</h4>
           </div>
           <div className='tech-content-container'>
-             <img className='skill-images' src="src/tech-images/css-3.svg" alt="javascript"/>
+             <img className='skill-images' src={cssImage} alt="javascript"/>
              <h4 className='skill-image-title'>CSS 3</h4>         
           </div>
         </div>
@@ -159,15 +167,15 @@ function About() {
          >
         <div class="tech-images">
             <div className='tech-content-container'>
-              <img id="spring-boot-image" className='skill-images' src="src/tech-images/spring.svg" alt="Spring Boot"/>
+              <img id="spring-boot-image" className='skill-images' src={springImage} alt="Spring Boot"/>
               <h4 className='skill-image-title'>Spring Boot</h4>
             </div>
             <div className='tech-content-container'>
-               <img className='skill-images' src="src/tech-images/react-js.svg" alt="React JS"/>
+               <img className='skill-images' src={reactjsImage} alt="React JS"/>
                <h4 className='skill-image-title'>React JS</h4>
             </div>
             <div className='tech-content-container'>
-            <img style={{backgroundColor: "white", borderRadius: "25%"}} className='skill-images' src="src/tech-images/materialui.svg" alt="MaterialUI"/>
+            <img style={{backgroundColor: "white", borderRadius: "25%"}} className='skill-images' src={materialuiImage} alt="MaterialUI"/>
             <h4 className='skill-image-title'>MaterialUI</h4>
           </div>
         </div>  
@@ -199,7 +207,7 @@ function About() {
          >
         <div class="tech-images">
           <div className='tech-content-container'>
-            <img style={{marginLeft: "8px"}} className='skill-images' src="src/tech-images/postgresql.svg" alt="PostgreSQL"/>
+            <img style={{marginLeft: "8px"}} className='skill-images' src={postgresqlImage} alt="PostgreSQL"/>
             <h4 className='skill-image-title'>PostgreSQL</h4>
           </div>
         </div>  
@@ -215,7 +223,7 @@ function About() {
          >
         <div class="tech-images">
           <div className='tech-content-container'>
-            <img style={{backgroundColor: "white", borderRadius: "25%", marginLeft: "8px"}} className='skill-images' src="src/tech-images/github.svg" alt="Github"/>
+            <img style={{backgroundColor: "white", borderRadius: "25%", marginLeft: "8px"}} className='skill-images' src={githubImage} alt="Github"/>
             <h4 className='skill-image-title'>Github</h4>
           </div>
         </div>  

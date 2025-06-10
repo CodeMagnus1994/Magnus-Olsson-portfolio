@@ -2,6 +2,7 @@ import React from 'react'
 import kolliconImage from '../images/kollicon.png'; 
 import projectImage from '../images/project.png'; 
 import yrkeskompetensImage from '../images/yrkeskompetens.png'; 
+import missingImage from '../tech-images/missing.svg'; 
 
 
 
