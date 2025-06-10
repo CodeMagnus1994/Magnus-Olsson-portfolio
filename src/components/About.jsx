@@ -2,7 +2,7 @@ import React from 'react'
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Input, Typography, TextField } from '@mui/material';
 import { useState } from 'react'
 import { motion } from "framer-motion";
-import profileImage from './images/profil.jpg'; // relative to the file you're in
+import profileImage from '../images/profil.jpg'; // notice the ".." to go up one folder
 
 
 function About() {
