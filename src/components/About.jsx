@@ -58,7 +58,7 @@ function About() {
         <img id="profile-image" src={profileImage} alt="Profile-pic"/>
         <div>
         <div id="about-me-information">  
-        <h2>Magnus Olsson</h2>
+        <h2>Magnus Svensson</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
            Enim beatae autem distinctio earum porro veritatis dolorum dolorfe, 
            ullam modi, sed assumenda
